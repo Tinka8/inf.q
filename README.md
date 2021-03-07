@@ -1,1 +1,1 @@
-## Úlohy na precvičenie z jednotlivých okruhov informatiky
+### Úlohy na precvičenie z jednotlivých okruhov informatiky
