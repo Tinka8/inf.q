@@ -1,0 +1,67 @@
+Informácie okolo nás - prvá strana 
+
+1. Slovo DNES má po zakódovaný tvar
+    01000100000000000100111000000000xxxxxxxxxxxxxxxx0101001100000000 (64 bitov).
+    Rozhodnite, ktorý z bežne používaných kódov bol použitý, doplňte bity za x a zhodnoťte (uveďte
+    výhody a nevýhody použitého kódu).
+
+2. Kód 0100110101000001010101000101010101010010 (40 bitov)
+    obsahuje prvé písmená zo slova MATURANT. O aký kód ide, zdôvodnite a dopíšte chýbajúce bity.
+
+3. V schéme je zakódovaný obrázok. Vyhodnoťte použitý kód, diskutujte o možnom vzhľade obrázka,
+    jeho farbách, veľkosti. Schéma:
+        10000011
+        01111101
+        01010101
+        01111101
+        01000101
+        01111101
+        10000011
+
+4. Časť zdrojového kódu programu obsahuje:
+    Brush.Color = clWhite; Rectangle(100,100,600,200);
+    Brush.Color = clBlue; Rectangle(100,300,600,200);
+    Brush.Color = clRed; Rectangle(100,500,600,200);
+    Podľa formy zápisu rozhodnite principiálne o akú grafiku sa jedná a zdôvodnite.
+    Určte, aké ďalšie informácie by mali byť v súbore s takýmto typom obrázka. Čo zobrazuje obrázok?
+
+5. Zhodnoťte spôsoby (uveďte výhody a nevýhody) kódovania rastrových obrázkov uložených vo
+    formátoch bmp, jpg, gif a png. Navrhnite a zdôvodnite použitie rôznych formátov pre maľbu,
+    schému, animáciu a pod.
+
+6. Navrhnite principiálny postup pri digitalizácii nakresleného obrázka a realizáciu (výsledkom musí
+    byť kód v počítači).
+
+7. Zhodnoťte spôsoby (uveďte výhody a nevýhody) kódovania zvuku uloženého vo formátoch wav,
+    midi a mp3. Navrhnite a zdôvodnite formát pre zvukové blahoželanie k narodeninám zaslané mailom.
+
+8. Objasnite význam kompresie súborov a princípy práce kompresných algoritmov.
+
+9. Text bol napísaný v jednoduchom textovom editore (boli vytvorené len odseky) a uložený. Odvoďte
+    vzorec na výpočet minimálnej veľkosti takéhoto súboru.
+
+10. Zdôvodnite zavedenie Unicode.
+
+11. Obrázok z vytlačenej predlohy umiestnite do textového dokumentu.
+
+12. Vašou úlohou je vytvoriť v počítači zvukový záznam. Navrhnite postup na jeho zaznamenanie
+    a objasnite princíp navrhnutého postupu. Čo všetko bude mať vplyv na veľkosť súboru, v ktorom
+    bude zvuk uložený? Odvoďte vzorec na výpočet minimálnej veľkosti takéhoto súboru.
+
+13. V texte vytlačenej predlohy opravte preklep a vytlačte.
+
+14. Rastrový obrázok rozmerov 1600 x 1200 pixelov je uložený v komprimovanom súbore (úspešnosť
+    kompresie 1:10) s veľkosťou 562,5 KiB (veľkosť hlavičky súboru sme zanedbali). V akej farebnej
+    palete bol uložený? Navrhni farebnú paletu, pre ktorú sa veľkosť súboru zmenší a bez výpočtu uveď
+    koľkokrát.
+
+15. Aká je veľkosť (v KiB) zvukovej nahrávky typu mp3 (kompresný pomer 1:11), ak bola uskutočnená
+    s parametrami 16 000 Hz, 1 B, stereo a jej prehratie trvá 3,5 minúty?
+
+16. Aká bola rýchlosť prenosu v počítačovej sieti v kbps v okamihu prenosu obrázka vo formáte jpg
+    (úspešnosť kompresie 1:10), ak prenos obrázok rozmerov 1024x768 pixelov s 256 farebnou paletou
+    trval 1,2 sekundy (veľkosť hlavičky súboru sme zanedbali)? Ako sa zmení čas prenosu obrázka (bez
+    výpočtu), ak použijeme 24-bitovú mapu?
+
+17. Akú veľkosť má nekomprimovaný videoklip (v MiB), ktorého prehranie trvá 1 minútu, každý
+    snímok tvorí 400x400 pixelov 16-farebnej palety a za sekundu sa vystrieda 25 snímok?

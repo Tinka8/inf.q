@@ -1,0 +1,75 @@
+Informácie okolo nás - druhá strana 
+
+1. Skladba bola nahraná v najvyššej kvalite (48 000 Hz) a zaberá 2,5 MiB vo formáte mp3 (úspešnosť
+    kompresie bola 1:11). Aká je veľkosť súboru vo formáte wav? Koľko minút trvá jej prehratie?
+
+2. Prenos textového dokumentu bez formátovacích značiek trval v počítačovej sieti s rýchlosťou
+    400kbps 0,1sekundy. Určte a zdôvodnite použitý kód, v ktorom je text uložený, ak má text 25
+    riadkov a v riadku priemerne 100 znakov.
+
+3. Rastrový obrázok rozmerov 1024 x 800 pixelov je uložený v súbore s veľkosťou 240 KiB (veľkosť
+    hlavičky súboru sme zanedbali) vo formáte jpg (úspešnosť kompresie 1:10). V akej farebnej palete
+    bol uložený? Navrhnite farebnú paletu, pre ktorú sa veľkosť súboru zmenší a bez výpočtu uveďte
+    novú veľkosť súboru.
+
+4. Zvuková nahrávka bola uložená v najnižšej kvalite (8 000 Hz) vo formáte wav a následne
+    skomprimovaná. Jej prehranie trvá 3,5 minúty. Aká je veľkosť súboru wav a súboru mp3, ak
+    úspešnosť kompresie bola 1:11?
+
+5. Prenos textového dokumentu s 18,53 KiB obrázkom trval v počítačovej sieti s rýchlosťou 400 kbps
+    0,4 sekundy. Určte a zdôvodnite použitý kód, v ktorom je text uložený, ak má text 16 riadkov
+    a v riadku priemerne 64 znakov.
+
+6. Koľko minút trvá prehratie zvukovej nahrávky typu mp3 (kompresný pomer 1:11), ak bola
+    uskutočnená s parametrami 16 000 Hz, 1 B, stereo a súbor mp3 má veľkosť 596,6 KiB?
+
+7. Súbor typu mp3 má veľkosť 64 KiB a obsahuje zvukovú nahrávku uloženú v najnižšej kvalite so
+    vzorkovacou frekvenciou 8 000Hz. Koľko minút bude trvať prehranie nahrávky?
+
+8. Súbor obsahujúci rastrový obrázok 6000 x 4200 px bol uložený vo formáte png (úspešnosť
+    kompresie 0,1) a má veľkosť 7,21 MiB. V akej farebnej palete bol uložený? Navrhni inú farebnú
+    paletu, pre ktorú by mal obrázok čo najväčšiu kvalitu a uveď, ako sa zmení veľkosť súboru.
+
+9. Aká bola približne rýchlosť prenosu v počítačovej sieti v kbps, ak prenos textového dokumentu
+    veľkosti 2 KiB trval 0,5 sekundy? Aké kódovanie znakov bolo použité, ak text obsahuje 32 riadkov
+    po 64 znakov v riadku?
+
+10. Aká bola približne rýchlosť prenosu v počítačovej sieti v kbps, ak prenos textového dokumentu
+    veľkosti 4 KiB trval 0,5 sekundy? Aké kódovanie znakov bolo použité, ak text obsahuje 32 riadkov
+    po 64 znakov v riadku?
+
+11. Súbor obsahujúci rastrový obrázok 6144 x 3072px bol uložený vo formáte png (úspešnosť kompresie
+    0,1) a má veľkosť 5,4 MiB. V akej farebnej palete bol uložený? Navrhni inú farebnú paletu, pre ktorú
+    by mal obrázok čo najväčšiu kvalitu a uveď, ako sa zmení veľkosť súboru.
+
+12. Súbor typu mp3 má veľkosť 1534,1 KiB a obsahuje zvukovú nahrávku uloženú s parametrami
+    48 000Hz, 2B, stereo. Koľko minút bude trvať prehranie nahrávky?
+
+13. Súbor obsahujúci rastrový obrázok 1024 x 768 px bol uložený vo formáte gif (úspešnosť kompresie
+    0,1) a má veľkosť 76,8 KiB. V akej farebnej palete bol uložený? Aká bola približne rýchlosť
+    prenosu v počítačovej sieti v kbps, ak jeho prenos trval 2 sekundy?
+
+14. Súbor typu mp3 má veľkosť 4 MiB a obsahuje zvukovú nahrávku v najvyššej kvalite zosnímanú
+    vzorkovacou frekvenciou 64 000 Hz. Akú veľkosť má súbor wav? Koľko minút má nahrávka?
+
+15. Súbor obsahuje text a obrázok a má veľkosť 3 KiB. Obrázok má veľkosť 2 KiB. V akom kóde je
+    uložený text, ak má 512 znakov? Navrhni iný kód pre text a uveď , ako sa zmení veľkosť textovej
+    časti.
+
+16. Napísali sme rovnosť, v ktorej sú všetky čísla vyjadrené v dvojkovej sústave. V tejto rovnosti sme
+    niektoré cifry nahradili písmenami „a“, „b“ a „c“. Každé písmeno predstavuje jednu dvojkovú cifru,
+    a to vždy rovnakú. Nájdite všetky riešenia a zdôvodnite správnosť vášho výsledku.
+                                10001ab + 1ac10 = 1011bcb
+
+17. Nájdite všetky riešenia rovnice 10aa01 + bbbbb = 1cccccc
+    kde a, b, c sú len binárna 0 alebo 1. Spravte skúšku správnosti!
+
+18. Diskutujte o formátovaní objektov na www stránke pomocou css, použite cvičné stránky
+    z http://www.gpnr.sk/index.php/studijne-materialy-in.
+
+19. Vytvorte webový dokument o Národnom parku Nízke Tatry podľa predlohy
+    z http://slovakia.travel/narodny-park-nizke-tatry alebo cez ponuky slovakia.travel - Čo vidieť a robiť
+    - Príroda a krajina - Hory - Národný park Nízke Tatry (bez časti Lokalizácia). Diskutujte
+    o formátovaní objektov na stránke pomocou css.
+
+20. Vysvetlite rozdiel medzi rastrovými a vektorovými obrázkami. 
