@@ -37,7 +37,7 @@ T - 01010100
 ```
 - Zbývá nám tedy určit binární reprezentaci UTF-8 znaku "N"
 - Ze zadání víme, že M je v binárním kódu ``01001101``
-- Protože víme, že v UTF-8 jsou znaky zakódované vždy v posloupnosti, kdy třeba B = U+0042, C = U+0043, tak z toho vyplívá, že E bude o 1 větší číslo v desítkové soustavě než D
+- Protože víme, že v UTF-8 jsou znaky zakódované vždy v posloupnosti, kdy třeba B = U+0042, C = U+0043, tak z toho vyplívá, že N bude o 1 větší číslo v desítkové soustavě než M
 - Naším úkolem je tedy přepočítat aktuální binární kód M ``01001101`` na hodnotu v desítkové soustavě, přičíst +1 a převést zpět na binární kód
 - Převedeme tedy nejdřív binární kód M do desítkové soustavy, abychom zjistili, jaké představuje číslo. Převádění do desítkové soustavy provádíme tak, že každé číslo umocníme podle pozice, na které se nachází (1. pozice = 2 na sedmou)
 ```
