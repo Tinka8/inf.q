@@ -10,7 +10,7 @@ Slovo DNES má po zakódovaný tvar 01000100000000000100111000000000xxxxxxxxxxxx
 ```
 01000100000000000100111000000000xxxxxxxxxxxxxxxx0101001100000000
 ```
-- Víme, že každé písmeno je představené 8 bity, můžeme si tedy rozdělit celý řetězec ze zadání po 8 znacích
+- Víme, že každé písmeno je představené 8 bity (UTF-8), můžeme si tedy rozdělit celý řetězec ze zadání po 8 znacích
 
 ```
 01000100 00100000 01001110 00100000 xxxxxxxx xxxxxxxx 01010011 00100000
@@ -39,9 +39,9 @@ E - xxxxxxxx
 S - 01010011
   - 00100000
 ```
-- Hledáme tedy binární reprezentaci UTF znaku E.
+- Hledáme tedy binární reprezentaci UTF-8 znaku E.
 - Ze zadání víme, že D je v binárním kódu ``01000100``
-- Protože víme, že v UTF jsou znaky zakódované vždy v posloupnosti, kdy třeba B = U+0042, C = U+0043, tak z toho vyplívá, že E bude o 1 větší číslo v desítkové soustavě než D
+- Protože víme, že v UTF-8 jsou znaky zakódované vždy v posloupnosti, kdy třeba B = U+0042, C = U+0043, tak z toho vyplívá, že E bude o 1 větší číslo v desítkové soustavě než D
 - Naším úkolem je tedy přepočítat aktuální binární kód D ``01000100`` na hodnotu v desítkové soustavě, přičíst +1 a převést zpět na binární kód
 - Převedeme tedy nejdřív binární kód D do desítkové soustavy, abychom zjistili, jaké představuje číslo. Převádění do desítkové soustavy provádíme tak, že každé číslo umocníme podle pozice, na které se nachází (1. pozice = 2 na sedmou)
 ```
