@@ -1,4 +1,4 @@
-## Uloha 1
+## Uloha 2
 
 ### Zadání
 
