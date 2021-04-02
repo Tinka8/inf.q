@@ -17,8 +17,8 @@ jeho farbách, veľkosti. Schéma:
 
 ### Postup
 
-- Víme, že zadaný binární kód je obrázek
-- Víme, že zadaný binární kód je relativně krátký, proto zřejmě obsahuje 1-bitový obrázek
+- Vieme, že zadaný binárny kód je obrázek
+- Vieme, že zadaný binárny kód je relativně krátký, proto zřejmě obsahuje 1-bitový obrázek
 - 1-bitový obrázek je takový obrázek, který má dvě možné barvy (0 = bílá, 1 = černá). Analogicky k tomu, třeba 2-bitový obrázek by měl 4 možné barvy (00, 01, 10, 11), 3-bitový by měl 8 barev atd.
 - Každé číslo v bitové reprezentaci obrázku tedy převedeme na černý nebo bílý pixel, podle toho, jestli je na jeho pozici 1 nebo 0
 
