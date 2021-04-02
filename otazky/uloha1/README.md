@@ -2,7 +2,7 @@
 
 ### Zadanie
 
-Slovo DNES má po zakódovaný tvar 01000100000000000100111000000000xxxxxxxxxxxxxxxx0101001100000000 (64 bitov). 
+Slovo DNES má zakódovaný tvar 01000100000000000100111000000000xxxxxxxxxxxxxxxx0101001100000000 (64 bitov). 
 Rozhodnite, ktorý z bežne používaných kódov bol použitý, doplňte bity za x a zhodnoťte (uveďte výhody a nevýhody použitého kódu).
 
 ### Postup
@@ -18,7 +18,7 @@ Rozhodnite, ktorý z bežne používaných kódov bol použitý, doplňte bity z
 ```
 - Vieme, že v reťazci sa nachádza určite 8 znakov (pretože 64 / 8 je 8 bitov) a zo zadania vieme, že jeden znak sa opakuje minimálne 3x (00100000).
 - Pretože v slove DNES nie je žiadny opakujúci sa znak, budeme predpokladať, že tento opakujúci sa znak je medzera.
-- Rozdelíme si slovo na jednotlivé znaky a ich bity
+- Rozdelíme si slovo na jednotlivé znaky a ich bity:
 ```
 D - 01000100
   - 00100000
@@ -29,7 +29,7 @@ E - xxxxxxxx
 S - 01010011
   - 00100000
 ```
-- Vieme, že medzera je ``00100000``, preto medzeru rovno doplníme
+- Vieme, že medzera je ``00100000``, preto medzeru rovno doplníme:
 ```
 D - 01000100
   - 00100000
@@ -44,7 +44,7 @@ S - 01010011
 - Zo zadania vieme, že D je v binárnom kóde ``01000100``
 - Pretože vieme, že v UTF-8 sú znaky zakódované vždy v postupnosti, kde napríklad: B = U+0042, C = U+0043, tak z toho vyplýva, že E bude o 1 väčšie číslo v desiatkovej sústave ako D
 - Našou úlohou je prepočítať aktuálny binárny kód písmena D ``01000100`` na hodnotu v desiatkovej sústave, pričítať +1 a previesť späť na binárny kód
-- Prevedieme najprv binárny kód písmena D do desiatkovej sústavy, aby sme zistili aké predstavuje číslo. 
+- Prevedieme najprv binárny kód písmena D do desiatkovej sústavy, aby sme zistili, aké predstavuje číslo. 
   Prevod do desiatkovej sústavy spravíme tak, že každé číslo umocníme podľa pozície, na ktorej sa nachádza (1. pozícia = 2 na siedmu)
 ```
 (01000100)₂ = (0 × 2⁷) + (1 × 2⁶) + (0 × 2⁵) + (0 × 2⁴) + (0 × 2³) + (1 × 2²) + (0 × 2¹) + (0 × 2⁰) = (68)₁₀
@@ -65,7 +65,7 @@ S - 01010011
 | (1)/2     | 0        | 1      | 6             |
 
 - Výsledný binárny kód je: ``1000101``
-- Vieme teda, že
+- Vieme teda, že:
 ```
 D - 01000100
   - 00100000
@@ -90,7 +90,7 @@ S - 01010011
 
 ### Riešenie
 
-Kód, ktorý bol použitý k zakódovaniu slova ``D N E S `` je binárny kód, jeho kompletné znenie vyzerá takto:
+Kód, ktorý bol použitý k zakódovaniu slova ``D N E S`` je binárny kód, jeho kompletné znenie vyzerá takto:
 
 ```
 01000100 00100000 01001110 00100000 01000101 00100000 01010011 00100000
